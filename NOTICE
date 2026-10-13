@@ -1,0 +1,14 @@
+FuZev vLLM Integration
+Copyright 2026 Peisong Xiao
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This integration uses vLLM, available separately under Apache-2.0.
+The optional vllm-exl3 quantization plugin is licensed under AGPL-3.0-only.
+Decision encoding and head loading are supplied by fuzev-runtime.
+
+Qwen3.8-Flash-Next backbone: Qwen team, Qwen Community License 1.0.
+https://huggingface.co/Qwen/Qwen3.8-Flash-Next/blob/main/LICENSE
+EXL3 quantization: turboderp; backbone Qwen Community License 1.0 terms apply.
+https://huggingface.co/turboderp/Qwen3.8-Flash-Next-exl3
+Training and evaluation dataset credits and separate license terms are listed
+in the FuZev attribution file: https://github.com/PeisongXiao/fuzev/blob/main/NOTICE
